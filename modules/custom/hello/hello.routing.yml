@@ -1,0 +1,8 @@
+hello:
+path: 'hello'
+defaults:
+_controller: '\Drupal\hello\Controller\HelloController::sayhello'
+requirements: # permessi per accedere al modulo
+_permission: 'access content'
+
+# struttura namespace: Drupal/<module_name>/Controller/ClassName:method
